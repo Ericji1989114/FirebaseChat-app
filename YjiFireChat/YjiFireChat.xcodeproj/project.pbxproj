@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9D45BE56F0BD9984E8B04BA /* Pods_YjiFireChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6366FED62DA12B99DAB06E0 /* Pods_YjiFireChat.framework */; };
+		DBFF6CAA1E7A2F1300187A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CA91E7A2F1300187A1A /* AppDelegate.swift */; };
+		DBFF6CAC1E7A2F1300187A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CAB1E7A2F1300187A1A /* ViewController.swift */; };
+		DBFF6CAF1E7A2F1300187A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFF6CAD1E7A2F1300187A1A /* Main.storyboard */; };
+		DBFF6CB11E7A2F1300187A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFF6CB01E7A2F1300187A1A /* Assets.xcassets */; };
+		DBFF6CB41E7A2F1300187A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFF6CB21E7A2F1300187A1A /* LaunchScreen.storyboard */; };
+		DBFF6CBD1E7A302100187A1A /* YjiCommonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CBC1E7A302100187A1A /* YjiCommonInfo.swift */; };
+		DBFF6CC11E7A317100187A1A /* YjiUsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CC01E7A317100187A1A /* YjiUsersController.swift */; };
+		DBFF6CC31E7A318C00187A1A /* YjiChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CC21E7A318C00187A1A /* YjiChatController.swift */; };
+		DBFF6CC61E7A36AB00187A1A /* YjiNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CC51E7A36AB00187A1A /* YjiNameController.swift */; };
+		DBFF6CCA1E7A536600187A1A /* YjiSQliteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CC91E7A536600187A1A /* YjiSQliteManager.swift */; };
+		DBFF6CCC1E7A578600187A1A /* YjiUserDT.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CCB1E7A578600187A1A /* YjiUserDT.swift */; };
+		DBFF6CCE1E7A5B1D00187A1A /* YjiUsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CCD1E7A5B1D00187A1A /* YjiUsersCell.swift */; };
+		DBFF6CD01E7A602200187A1A /* YjiUsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CCF1E7A602200187A1A /* YjiUsersModel.swift */; };
+		DBFF6CD41E7A71A200187A1A /* YjiComonFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CD31E7A71A200187A1A /* YjiComonFunc.swift */; };
+		DBFF6CD61E7A73FD00187A1A /* YjiMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF6CD51E7A73FD00187A1A /* YjiMsg.swift */; };
+		DBFF6CFD1E7A755400187A1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBFF6CFC1E7A755400187A1A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F9BCF41EDCB207B61529FD3 /* Pods-YjiFireChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjiFireChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-YjiFireChat/Pods-YjiFireChat.release.xcconfig"; sourceTree = "<group>"; };
+		A6366FED62DA12B99DAB06E0 /* Pods_YjiFireChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YjiFireChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CCEFCC367CFA523E0634A2 /* Pods-YjiFireChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjiFireChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YjiFireChat/Pods-YjiFireChat.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFF6CA61E7A2F1300187A1A /* YjiFireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YjiFireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF6CA91E7A2F1300187A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBFF6CAB1E7A2F1300187A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBFF6CAE1E7A2F1300187A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBFF6CB01E7A2F1300187A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBFF6CB31E7A2F1300187A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBFF6CB51E7A2F1300187A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFF6CBC1E7A302100187A1A /* YjiCommonInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiCommonInfo.swift; sourceTree = "<group>"; };
+		DBFF6CC01E7A317100187A1A /* YjiUsersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiUsersController.swift; sourceTree = "<group>"; };
+		DBFF6CC21E7A318C00187A1A /* YjiChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiChatController.swift; sourceTree = "<group>"; };
+		DBFF6CC51E7A36AB00187A1A /* YjiNameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiNameController.swift; sourceTree = "<group>"; };
+		DBFF6CC91E7A536600187A1A /* YjiSQliteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiSQliteManager.swift; sourceTree = "<group>"; };
+		DBFF6CCB1E7A578600187A1A /* YjiUserDT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiUserDT.swift; sourceTree = "<group>"; };
+		DBFF6CCD1E7A5B1D00187A1A /* YjiUsersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiUsersCell.swift; sourceTree = "<group>"; };
+		DBFF6CCF1E7A602200187A1A /* YjiUsersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiUsersModel.swift; sourceTree = "<group>"; };
+		DBFF6CD31E7A71A200187A1A /* YjiComonFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiComonFunc.swift; sourceTree = "<group>"; };
+		DBFF6CD51E7A73FD00187A1A /* YjiMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YjiMsg.swift; sourceTree = "<group>"; };
+		DBFF6CFC1E7A755400187A1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFF6CA31E7A2F1300187A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D45BE56F0BD9984E8B04BA /* Pods_YjiFireChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62386A9A9F92D402A8691A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6366FED62DA12B99DAB06E0 /* Pods_YjiFireChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3A2724E7ECCE45B4B9D045 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCEFCC367CFA523E0634A2 /* Pods-YjiFireChat.debug.xcconfig */,
+				1F9BCF41EDCB207B61529FD3 /* Pods-YjiFireChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBFF6C9D1E7A2F1300187A1A = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CA81E7A2F1300187A1A /* YjiFireChat */,
+				DBFF6CA71E7A2F1300187A1A /* Products */,
+				BF3A2724E7ECCE45B4B9D045 /* Pods */,
+				A62386A9A9F92D402A8691A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFF6CA71E7A2F1300187A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CA61E7A2F1300187A1A /* YjiFireChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFF6CA81E7A2F1300187A1A /* YjiFireChat */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CC41E7A369000187A1A /* NamePage */,
+				DBFF6CBF1E7A312800187A1A /* ChatPage */,
+				DBFF6CBE1E7A311A00187A1A /* UsersPage */,
+				DBFF6CBB1E7A2FE700187A1A /* Common */,
+				DBFF6CA91E7A2F1300187A1A /* AppDelegate.swift */,
+				DBFF6CAB1E7A2F1300187A1A /* ViewController.swift */,
+				DBFF6CAD1E7A2F1300187A1A /* Main.storyboard */,
+				DBFF6CB01E7A2F1300187A1A /* Assets.xcassets */,
+				DBFF6CB21E7A2F1300187A1A /* LaunchScreen.storyboard */,
+				DBFF6CFC1E7A755400187A1A /* GoogleService-Info.plist */,
+				DBFF6CB51E7A2F1300187A1A /* Info.plist */,
+			);
+			path = YjiFireChat;
+			sourceTree = "<group>";
+		};
+		DBFF6CBB1E7A2FE700187A1A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CD31E7A71A200187A1A /* YjiComonFunc.swift */,
+				DBFF6CBC1E7A302100187A1A /* YjiCommonInfo.swift */,
+				DBFF6CC91E7A536600187A1A /* YjiSQliteManager.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		DBFF6CBE1E7A311A00187A1A /* UsersPage */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CC01E7A317100187A1A /* YjiUsersController.swift */,
+				DBFF6CCB1E7A578600187A1A /* YjiUserDT.swift */,
+				DBFF6CCD1E7A5B1D00187A1A /* YjiUsersCell.swift */,
+				DBFF6CCF1E7A602200187A1A /* YjiUsersModel.swift */,
+			);
+			name = UsersPage;
+			sourceTree = "<group>";
+		};
+		DBFF6CBF1E7A312800187A1A /* ChatPage */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CD51E7A73FD00187A1A /* YjiMsg.swift */,
+				DBFF6CC21E7A318C00187A1A /* YjiChatController.swift */,
+			);
+			name = ChatPage;
+			sourceTree = "<group>";
+		};
+		DBFF6CC41E7A369000187A1A /* NamePage */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF6CC51E7A36AB00187A1A /* YjiNameController.swift */,
+			);
+			name = NamePage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFF6CA51E7A2F1300187A1A /* YjiFireChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFF6CB81E7A2F1300187A1A /* Build configuration list for PBXNativeTarget "YjiFireChat" */;
+			buildPhases = (
+				4ACFFCF50150AC9917304DEB /* [CP] Check Pods Manifest.lock */,
+				DBFF6CA21E7A2F1300187A1A /* Sources */,
+				DBFF6CA31E7A2F1300187A1A /* Frameworks */,
+				DBFF6CA41E7A2F1300187A1A /* Resources */,
+				91CB0466A7F477968CE494B5 /* [CP] Embed Pods Frameworks */,
+				82CA5911C42150528EED6AF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YjiFireChat;
+			productName = YjiFireChat;
+			productReference = DBFF6CA61E7A2F1300187A1A /* YjiFireChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFF6C9E1E7A2F1300187A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ericji;
+				TargetAttributes = {
+					DBFF6CA51E7A2F1300187A1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VNBQ242BN8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBFF6CA11E7A2F1300187A1A /* Build configuration list for PBXProject "YjiFireChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBFF6C9D1E7A2F1300187A1A;
+			productRefGroup = DBFF6CA71E7A2F1300187A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFF6CA51E7A2F1300187A1A /* YjiFireChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBFF6CA41E7A2F1300187A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFF6CB41E7A2F1300187A1A /* LaunchScreen.storyboard in Resources */,
+				DBFF6CFD1E7A755400187A1A /* GoogleService-Info.plist in Resources */,
+				DBFF6CB11E7A2F1300187A1A /* Assets.xcassets in Resources */,
+				DBFF6CAF1E7A2F1300187A1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ACFFCF50150AC9917304DEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82CA5911C42150528EED6AF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YjiFireChat/Pods-YjiFireChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CB0466A7F477968CE494B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YjiFireChat/Pods-YjiFireChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFF6CA21E7A2F1300187A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFF6CAC1E7A2F1300187A1A /* ViewController.swift in Sources */,
+				DBFF6CCC1E7A578600187A1A /* YjiUserDT.swift in Sources */,
+				DBFF6CD61E7A73FD00187A1A /* YjiMsg.swift in Sources */,
+				DBFF6CC11E7A317100187A1A /* YjiUsersController.swift in Sources */,
+				DBFF6CCE1E7A5B1D00187A1A /* YjiUsersCell.swift in Sources */,
+				DBFF6CD41E7A71A200187A1A /* YjiComonFunc.swift in Sources */,
+				DBFF6CCA1E7A536600187A1A /* YjiSQliteManager.swift in Sources */,
+				DBFF6CBD1E7A302100187A1A /* YjiCommonInfo.swift in Sources */,
+				DBFF6CD01E7A602200187A1A /* YjiUsersModel.swift in Sources */,
+				DBFF6CC31E7A318C00187A1A /* YjiChatController.swift in Sources */,
+				DBFF6CAA1E7A2F1300187A1A /* AppDelegate.swift in Sources */,
+				DBFF6CC61E7A36AB00187A1A /* YjiNameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBFF6CAD1E7A2F1300187A1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFF6CAE1E7A2F1300187A1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBFF6CB21E7A2F1300187A1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFF6CB31E7A2F1300187A1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBFF6CB61E7A2F1300187A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBFF6CB71E7A2F1300187A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBFF6CB91E7A2F1300187A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CCEFCC367CFA523E0634A2 /* Pods-YjiFireChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VNBQ242BN8;
+				INFOPLIST_FILE = YjiFireChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ericji.YjiFireChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBFF6CBA1E7A2F1300187A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9BCF41EDCB207B61529FD3 /* Pods-YjiFireChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VNBQ242BN8;
+				INFOPLIST_FILE = YjiFireChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ericji.YjiFireChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFF6CA11E7A2F1300187A1A /* Build configuration list for PBXProject "YjiFireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFF6CB61E7A2F1300187A1A /* Debug */,
+				DBFF6CB71E7A2F1300187A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFF6CB81E7A2F1300187A1A /* Build configuration list for PBXNativeTarget "YjiFireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFF6CB91E7A2F1300187A1A /* Debug */,
+				DBFF6CBA1E7A2F1300187A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFF6C9E1E7A2F1300187A1A /* Project object */;
+}
