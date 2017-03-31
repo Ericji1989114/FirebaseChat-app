@@ -21,7 +21,6 @@ class YjiChatController: JSQMessagesViewController {
     
     var messages = [YjiMsg]()
     let defaults = UserDefaults.standard
-    var conversation: Conversation?
     var incomingBubble: JSQMessagesBubbleImage!
     var outgoingBubble: JSQMessagesBubbleImage!
     fileprivate var displayName: String!

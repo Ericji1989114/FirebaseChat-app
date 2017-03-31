@@ -14,12 +14,3 @@ struct UserInfoKey {
     static var imageUrl = "imageUrl"
 }
 
-struct Conversation {
-    let firstName: String?
-    let lastName: String?
-    let preferredName: String?
-    let smsNumber: String
-    let id: String?
-    let latestMessage: String?
-    let isRead: Bool
-}

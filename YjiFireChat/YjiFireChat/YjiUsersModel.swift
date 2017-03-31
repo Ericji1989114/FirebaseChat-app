@@ -14,7 +14,6 @@ class YjiUsersModel: NSObject {
     var users = [YjiUserDT]()
     let ref = FIRDatabase.database().reference()
     
-    // TOLEARN
     func getUsers(completion: @escaping (String?) -> Void) {
         ref.child("Users").observe(.value, with: { [weak self] (snapshot) in
             guard let dict = snapshot.value as? [String : Any] else {
@@ -54,7 +53,7 @@ class YjiUsersModel: NSObject {
             
             for info in sortedDic {
                 let conversationId = info.key
-                if !conversationId.contains(".") {
+                if !conversationId.contains(",") {
                     continue
                 }
                 guard let messages = info.value as? [String: Any] else {

@@ -34,6 +34,7 @@ class YjiUsersController: UIViewController {
         tableView.register(YjiUsersCell.classForCoder(), forCellReuseIdentifier: "UsersCell")
         setUpTableView()
         getData()
+        model.setListener()
     }
 
     override func didReceiveMemoryWarning() {

@@ -183,7 +183,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Ericji;
 				TargetAttributes = {
 					DBFF6CA51E7A2F1300187A1A = {
@@ -412,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9CCEFCC367CFA523E0634A2 /* Pods-YjiFireChat.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VNBQ242BN8;
 				INFOPLIST_FILE = YjiFireChat/Info.plist;
@@ -427,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F9BCF41EDCB207B61529FD3 /* Pods-YjiFireChat.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VNBQ242BN8;
 				INFOPLIST_FILE = YjiFireChat/Info.plist;

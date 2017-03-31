@@ -25,7 +25,6 @@ class YjiComonFunc: NSObject {
         return formatter
     }
     
-    // TOLEARN
     static func getIconImage(id: String) -> JSQMessagesAvatarImage {
         return JSQMessagesAvatarImageFactory.avatarImage(withPlaceholder: UIImage(named:"jiyun")!, diameter: 20)
     }

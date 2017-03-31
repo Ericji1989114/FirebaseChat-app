@@ -13,5 +13,5 @@ target 'YjiFireChat' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'SnapKit'
-  pod 'SQLite.swift', '~> 0.11.2'
+  pod 'SQLite.swift', '~> 0.11.3'
 end

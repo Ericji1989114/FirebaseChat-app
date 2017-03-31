@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         setupFirebase()
+        YjiSQliteManager.sharedInstance.creatDB()
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         guard let firstVc = storyboard.instantiateInitialViewController() else {return true}
         let nVc = UINavigationController(rootViewController: firstVc)

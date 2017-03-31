@@ -31,7 +31,6 @@ class YjiSQliteManager: NSObject {
         do {
             db = try Connection(sqlitePath)
             table_chats = Table("Chats")
-            // TOLEARN
             let targetUserId = Expression<String>("targetUserId")
             let lastMessageTime = Expression<String>("lastMessageTime")
             let lastMessage = Expression<String>("lastMessage")

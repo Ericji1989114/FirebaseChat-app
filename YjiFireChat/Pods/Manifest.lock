@@ -26,9 +26,9 @@ PODS:
     - RxSwift (~> 3.3)
   - RxSwift (3.3.1)
   - SnapKit (3.2.0)
-  - SQLite.swift (0.11.2):
-    - SQLite.swift/standard (= 0.11.2)
-  - SQLite.swift/standard (0.11.2)
+  - SQLite.swift (0.11.3):
+    - SQLite.swift/standard (= 0.11.3)
+  - SQLite.swift/standard (0.11.3)
 
 DEPENDENCIES:
   - Firebase
@@ -38,7 +38,7 @@ DEPENDENCIES:
   - RxCocoa (~> 3.0)
   - RxSwift (~> 3.0)
   - SnapKit
-  - SQLite.swift (~> 0.11.2)
+  - SQLite.swift (~> 0.11.3)
 
 SPEC CHECKSUMS:
   Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
@@ -52,8 +52,8 @@ SPEC CHECKSUMS:
   RxCocoa: 7dcb7a1860fc9cd0e23dae67ab105fc2916670b6
   RxSwift: 8fc9f2de6275a9101d518444e00bf32f1a42caac
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
-  SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
 
-PODFILE CHECKSUM: 8de96538ac45ce21beb3e255975934ca952c4ae3
+PODFILE CHECKSUM: 29b3e2d4c92e33c2391ab7957d4334e7ea3939a3
 
 COCOAPODS: 1.1.1

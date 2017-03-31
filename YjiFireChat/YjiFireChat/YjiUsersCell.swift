@@ -76,7 +76,6 @@ class YjiUsersCell: UITableViewCell {
         userNameLbl.text = nil
         chatLbl.text = nil
         timeLbl.text = nil
-        // TOLEARN
         disposeBag = DisposeBag()
     }
     
