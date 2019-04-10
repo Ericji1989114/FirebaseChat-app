@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 
-class YjiUserDT: AnyObject {
+class YjiUserDT: NSObject {
     var userId: String
     var userName: String
     var imageUrl: String

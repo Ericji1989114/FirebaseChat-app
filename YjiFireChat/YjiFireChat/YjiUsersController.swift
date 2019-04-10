@@ -11,7 +11,7 @@ import UIKit
 class YjiUsersController: UIViewController {
     
     let tableView = UITableView()
-    let indicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+    let indicator = UIActivityIndicatorView(style: .whiteLarge)
     
     let model = YjiUsersModel()
     

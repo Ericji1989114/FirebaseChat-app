@@ -66,9 +66,7 @@ class YjiNameController: UIViewController {
         // observe user handle
         nameTf.rx.text.asObservable().map { (text) -> Bool in
             return text?.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines) != ""
-        }.bindTo(confirmBtn.rx.isEnabled).addDisposableTo(disposeBag)
-        
-        
+            }.bind(to: confirmBtn.rx.isEnabled).disposed(by: disposeBag)
     }
 
     override func didReceiveMemoryWarning() {
@@ -102,7 +100,7 @@ class YjiNameController: UIViewController {
         let key = userId
         var serverDic = [String : Any]()
         serverDic[key] = userDic
-        let ref = FIRDatabase.database().reference()
+        let ref = Database.database().reference()
         ref.child("Users").updateChildValues(serverDic)
         
     }

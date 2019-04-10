@@ -15,7 +15,7 @@ public class Observable<Element> : ObservableType {
     
     init() {
 #if TRACE_RESOURCES
-        let _ = Resources.incrementTotal()
+        _ = Resources.incrementTotal()
 #endif
     }
     
@@ -29,7 +29,7 @@ public class Observable<Element> : ObservableType {
     
     deinit {
 #if TRACE_RESOURCES
-        let _ = Resources.decrementTotal()
+        _ = Resources.decrementTotal()
 #endif
     }
 
@@ -37,8 +37,8 @@ public class Observable<Element> : ObservableType {
     // Swift compiler reports "Not supported yet" when trying to override protocol extensions, so ¯\_(ツ)_/¯
 
     /// Optimizations for map operator
-    internal func composeMap<R>(_ selector: @escaping (Element) throws -> R) -> Observable<R> {
-        return Map(source: self, transform: selector)
+    internal func composeMap<R>(_ transform: @escaping (Element) throws -> R) -> Observable<R> {
+        return _map(source: self, transform: transform)
     }
 }
 

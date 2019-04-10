@@ -12,7 +12,7 @@ import Firebase
 class YjiUsersModel: NSObject {
     
     var users = [YjiUserDT]()
-    let ref = FIRDatabase.database().reference()
+    let ref = Database.database().reference()
     
     func getUsers(completion: @escaping (String?) -> Void) {
         ref.child("Users").observe(.value, with: { [weak self] (snapshot) in

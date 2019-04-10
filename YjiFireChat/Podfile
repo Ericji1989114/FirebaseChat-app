@@ -6,8 +6,8 @@ target 'YjiFireChat' do
   use_frameworks!
 
   # Pods for YjiFireChat
-  pod 'RxSwift',    '~> 3.0'
-  pod 'RxCocoa',    '~> 3.0'
+  pod 'RxSwift'
+  pod 'RxCocoa'
   pod 'JSQMessagesViewController'
   pod 'Firebase'
   pod 'Firebase/Core'

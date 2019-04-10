@@ -15,7 +15,7 @@ class YjiChatController: JSQMessagesViewController {
     var conversationId : String!
     var conversationTitle : String!
     
-    let ref = FIRDatabase.database().reference()
+    let ref = Database.database().reference()
     
     var isFirstLoad = true
     
